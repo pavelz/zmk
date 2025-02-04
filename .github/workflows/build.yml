@@ -56,6 +56,7 @@ jobs:
         run: npm install @actions/artifact
       - name: Build and upload artifacts
         uses: actions/github-script@v4
+        overwrite: true
         id: boards-list
         with:
           script: |
