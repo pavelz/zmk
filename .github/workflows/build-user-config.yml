@@ -118,7 +118,8 @@ jobs:
 
       - name: Archive (${{ env.display_name }})
         uses: actions/upload-artifact@v4
-        overwrite: true
         with:
           name: ${{ inputs.archive_name }}
           path: build/artifacts
+          overwrite: true
+
