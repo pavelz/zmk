@@ -20,7 +20,7 @@ on:
         type: string
       archive_name:
         description: 'Archive output file name'
-        default: 'firmware'
+        default: ${{ env.display_name }}
         required: false
         type: string
 
