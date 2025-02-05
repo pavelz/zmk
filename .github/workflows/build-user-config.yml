@@ -20,7 +20,7 @@ on:
         type: string
       archive_name:
         description: 'Archive output file name'
-        default: ${{ env.display_name }}
+        default: 'broware'
         required: false
         type: string
 
