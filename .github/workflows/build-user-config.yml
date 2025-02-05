@@ -121,5 +121,6 @@ jobs:
         with:
           name: ${{ inputs.archive_name }}
           path: build/artifacts
+          archive_name: ${{ env.display_name }}
           overwrite: true
 
